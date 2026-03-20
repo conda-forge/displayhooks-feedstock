@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: displayhooks
-  version: 0.0.5
+  version: "0.0.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/displayhooks-${{ version }}.tar.gz
-  sha256: 9baf782a46d70bc9cffef4149a2de730babd7a52185ca7bf30027be748d54897
+  sha256: 38e77bc26fc425dd10a949017b23aebc0629d60d7b1c309bc160619cf7afa775
 
 build:
   number: 0
